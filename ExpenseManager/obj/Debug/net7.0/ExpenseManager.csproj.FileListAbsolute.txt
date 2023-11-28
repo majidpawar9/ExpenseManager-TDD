@@ -1,0 +1,12 @@
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/bin/Debug/net7.0/ExpenseManager.deps.json
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/bin/Debug/net7.0/ExpenseManager.dll
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/bin/Debug/net7.0/ExpenseManager.pdb
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ExpenseManager.csproj.AssemblyReference.cache
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ExpenseManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ExpenseManager.AssemblyInfoInputs.cache
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ExpenseManager.AssemblyInfo.cs
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ExpenseManager.csproj.CoreCompileInputs.cache
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ExpenseManager.dll
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/refint/ExpenseManager.dll
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ExpenseManager.pdb
+/Users/majidpawar/Web/Sem2/ExpenseManager-TDD/ExpenseManager/obj/Debug/net7.0/ref/ExpenseManager.dll
