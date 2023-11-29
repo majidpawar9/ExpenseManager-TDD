@@ -20,5 +20,16 @@ namespace Expense.Tests.Services
 
             Assert.IsFalse(result, "1 should not be prime");
         }
+
+        [TestMethod]
+        [DataRow(6)]
+        [DataRow(2)]
+        [DataRow(4)]
+        public void IsDivisibleBy2(int num)
+        {
+            bool result = _expenseservice.DivideBy2(num);
+
+            Assert.AreEqual(result, true);
+        }
     }
 }
