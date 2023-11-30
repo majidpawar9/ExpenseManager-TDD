@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../build/ExpenseManager-TDD.props" />
+  <Import Project="..\build\ExpenseManager-TDD.props" />
 </Project>
