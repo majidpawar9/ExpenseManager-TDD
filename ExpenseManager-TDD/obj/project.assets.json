@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/majidpawar/Web/ExpenseManager-TDD/ExpenseManager-TDD/ExpenseManager-TDD.csproj",
+      "projectUniqueName": "/Users/majidpawar/Downloads/ExpenseManager-TDD/ExpenseManager-TDD/ExpenseManager-TDD.csproj",
       "projectName": "ExpenseManager-TDD",
-      "projectPath": "/Users/majidpawar/Web/ExpenseManager-TDD/ExpenseManager-TDD/ExpenseManager-TDD.csproj",
+      "projectPath": "/Users/majidpawar/Downloads/ExpenseManager-TDD/ExpenseManager-TDD/ExpenseManager-TDD.csproj",
       "packagesPath": "/Users/majidpawar/.nuget/packages/",
-      "outputPath": "/Users/majidpawar/Web/ExpenseManager-TDD/ExpenseManager-TDD/obj/",
+      "outputPath": "/Users/majidpawar/Downloads/ExpenseManager-TDD/ExpenseManager-TDD/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/majidpawar/.nuget/NuGet/NuGet.Config"
