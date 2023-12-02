@@ -47,7 +47,7 @@ namespace ExpenseManager_TDD.Controllers
         // GET: Category/Create
         public IActionResult Create()
         {
-            return View(new Category());
+            return View();
         }
 
         // POST: Category/Create

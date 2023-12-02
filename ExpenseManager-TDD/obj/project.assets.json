@@ -1343,6 +1343,22 @@
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
+      "Microsoft.EntityFrameworkCore.InMemory/7.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.14"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/7.0.14": {
         "type": "package",
         "dependencies": {
@@ -5570,6 +5586,20 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.7.0.14.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/7.0.14": {
+      "sha512": "AkslBuDeD46shtKsM1uLChYXtLAib9/7QI7s3LXNLxY9qh0KHfmz5dQsV+pJqXknZNu6+10v/7t7o2o/dKTOvQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/7.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.7.0.14.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.14": {
@@ -11204,6 +11234,7 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.14",
+      "Microsoft.EntityFrameworkCore.InMemory >= 7.0.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.14",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.14",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.11"
@@ -11216,11 +11247,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahek\\OneDrive\\Desktop\\Web\\ExpenseManager-TDD\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj",
+      "projectUniqueName": "C:\\Web2\\ExpenseManager-TDD\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj",
       "projectName": "ExpenseManager-TDD",
-      "projectPath": "C:\\Users\\mahek\\OneDrive\\Desktop\\Web\\ExpenseManager-TDD\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj",
+      "projectPath": "C:\\Web2\\ExpenseManager-TDD\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj",
       "packagesPath": "C:\\Users\\mahek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahek\\OneDrive\\Desktop\\Web\\ExpenseManager-TDD\\ExpenseManager-TDD\\obj\\",
+      "outputPath": "C:\\Web2\\ExpenseManager-TDD\\ExpenseManager-TDD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -11255,6 +11286,10 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.14, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[7.0.14, )"
           },
