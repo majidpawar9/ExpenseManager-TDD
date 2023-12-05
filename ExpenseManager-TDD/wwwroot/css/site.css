@@ -19,6 +19,10 @@ html {
 
 body {
   margin-bottom: 60px;
-  
   background-color: antiquewhite;
+}
+
+.widget{
+    border-radius: 1rem;
+    background-color: aqua
 }
