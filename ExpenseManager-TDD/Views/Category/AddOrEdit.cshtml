@@ -1,7 +1,7 @@
 ﻿@model ExpenseManager_TDD.Models.Category
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["PageTitle"] = Model.CategoryID == 0? "Create a new category":"Edit Category";
 }
 
 
@@ -41,7 +41,7 @@
         
     </div>
     <div class="col-md-5">
-        <div class="widget  h-100 d-flex justify-content-center align-items-center" l>
+        <div class="widget  h-100 d-flex justify-content-center align-items-center">
             <i class="fa-solid fa-shapes fa-2xl"></i>
         </div>
     </div>

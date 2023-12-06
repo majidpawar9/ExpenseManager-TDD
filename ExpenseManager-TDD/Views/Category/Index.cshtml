@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<ExpenseManager_TDD.Models.Category>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["PageTitle"] = "Categories";
+    ViewData["PageActionText"] = "+ New Category";
+    ViewData["PageActionUrl"] = "/Category/AddOrEdit";
 }
 
 <!-- Include Bootstrap CSS -->
@@ -28,12 +30,28 @@
                     {
                         <tr>
                             <td>@item.TitleWithIcon</td>
-                            <td>@item.Type</td>
+                            <td>
+                                @if (@item.Type != "Expense")
+                                {
+                                    <span class="badge bg-success">@item.Type </span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-danger">@item.Type </span>
+                                }
+                            </td>
                             <td>
                                 <div class="d-flex flex-row justify-content-start">
                                     <a class="btn btn-sm" href="/Category/AddOrEdit/@item.CategoryID">
                                         <i class="fa-solid fa-pen fa-lg"></i>
                                     </a>
+                                    <form action="/Category/Delete/@item.CategoryID" method="post">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-link text-decoration-none" onclick="return confirm(&quot;Are you sure to delete this record?&quot;)">
+                                            <i class="fa-solid fa-trash-can fa-lg text-danger"></i> 
+                                        </button>  
+                                    </form>
+                                    
                                 </div>
                             </td>
                         </tr>
