@@ -4,44 +4,61 @@
     ViewData["Title"] = "Index";
 }
 
+<!-- Include Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- Include Bootstrap Table CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.css">
+
 <h1>Index</h1>
 
-<p>
-    <a class="btn btn-primary" asp-action="AddOrEdit">Add New Category</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Icon)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Type)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Icon)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Type)
-            </td>
-            <td>
-                <a asp-action="AddOrEdit" asp-route-id="@item.CategoryID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CategoryID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CategoryID">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container">
+    <div class="row" >
+        <div class="col-md-7">
+            <table class="table" data-toggle="table" data-pagination="true">
+                <thead>
+                    <tr>
+                        <th scope="col" data-field="Title" data-sortable="true">Category</th>
+                        <th scope="col" data-field="TitleWithIcon" data-sortable="true" width="150px">Type</th>
+                        <th scope="col" width="50px">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.TitleWithIcon</td>
+                            <td>@item.Type</td>
+                            <td>
+                                <div class="d-flex flex-row justify-content-start">
+                                    <a class="btn btn-sm" href="/Category/AddOrEdit/@item.CategoryID">
+                                        <i class="fa-solid fa-pen fa-lg"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-5">
+            <div class="widget  h-100 d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-shapes fa-2xl"></i>
+            </div>
+    </div>
+</div>
+</div>
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+<!-- Include Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Include Bootstrap Table JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('table').bootstrapTable();
+    });
+</script>
