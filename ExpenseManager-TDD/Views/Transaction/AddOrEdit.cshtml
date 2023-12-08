@@ -1,0 +1,52 @@
+﻿@model ExpenseManager_TDD.Models.Transaction
+
+@{
+    ViewData["PageTitle"] = Model.TransactionID == 0 ? "Create a new Transaction" : "Edit Transaction";
+}
+
+
+<div class="row">
+    <div class="col-md-7">
+        <div class="widget p-5">
+        <form asp-action="AddOrEdit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" name="TransactionID" value="@Model.TransactionID" />
+                <div class="mb-3">
+                    <label asp-for="Date" class="control-label"></label>
+                    <input asp-for="Date" type="Date" class="form-control" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+            <div class="mb-3">
+                    <td>Categories: </td>
+                    <td>@Html.DropDownListFor(x => x.CategoryID, new SelectList(ViewBag.Categories, "CategoryID","TitleWithIcon"))</td>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Amount" class="control-label"></label>
+                <input asp-for="Amount" min="0" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Note" class="control-label"></label>
+                <input asp-for="Note" class="form-control" />
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="widget  h-100 d-flex justify-content-center align-items-center">
+            <i class="fa-solid fa-money-bill-transfer fa-2xl"></i>
+        </div>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

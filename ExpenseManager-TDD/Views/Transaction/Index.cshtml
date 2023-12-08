@@ -1,9 +1,9 @@
-﻿@model IEnumerable<ExpenseManager_TDD.Models.Category>
+﻿@model IEnumerable<ExpenseManager_TDD.Models.Transaction>
 
 @{
-    ViewData["PageTitle"] = "Categories";
-    ViewData["PageActionText"] = "+ New Category";
-    ViewData["PageActionUrl"] = "/Category/AddOrEdit";
+    ViewData["PageTitle"] = "Transactions";
+    ViewData["PageActionText"] = "+ New Transaction";
+    ViewData["PageActionUrl"] = "/Transaction/AddOrEdit";
 }
 
 <!-- Include Bootstrap CSS -->
@@ -13,13 +13,15 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.16.0/bootstrap-table.min.css">
 
 <div class="container">
-    <div class="row" >
+    <div class="row">
         <div class="col-md-7">
             <table class="table" data-toggle="table" data-pagination="true">
                 <thead>
                     <tr>
-                        <th scope="col" data-field="Title" data-sortable="true">Category</th>
-                        <th scope="col" data-field="TitleWithIcon" data-sortable="true" width="150px">Type</th>
+                        <th scope="col" data-field="Category" data-sortable="true">Category</th>
+                        <th scope="col" data-field="Amount" data-sortable="true" width="100px">Amount</th>
+                        <th scope="col" data-field="Note" data-sortable="true"width="100px">Note</th>
+                        <th scope="col" data-field="Date" data-sortable="true" width="50px">Date</th>
                         <th scope="col" width="50px">Actions</th>
                     </tr>
                 </thead>
@@ -27,29 +29,21 @@
                     @foreach (var item in Model)
                     {
                         <tr>
-                            <td>@item.TitleWithIcon</td>
-                            <td>
-                                @if (@item.Type != "Expense")
-                                {
-                                    <span class="badge bg-success">@item.Type </span>
-                                }
-                                else
-                                {
-                                    <span class="badge bg-danger">@item.Type </span>
-                                }
-                            </td>
+                            <td>@item.CategoryTitleWithIcon</td>
+                            <td>@item.FormattedAmount</td>
+                            <td>@item.Note</td>
+                            <td>@item.Date.Year/@item.Date.Month/@item.Date.Day</td>
                             <td>
                                 <div class="d-flex flex-row justify-content-start">
-                                    <a class="btn btn-sm" href="/Category/AddOrEdit/@item.CategoryID">
+                                    <a class="btn btn-sm" href="/Transaction/AddOrEdit/@item.TransactionID">
                                         <i class="fa-solid fa-pen fa-lg"></i>
                                     </a>
-                                    <form action="/Category/Delete/@item.CategoryID" method="post">
+                                    <form action="/Transaction/Delete/@item.TransactionID" method="post">
                                         @Html.AntiForgeryToken()
                                         <button type="submit" class="btn btn-sm btn-link text-decoration-none" onclick="return confirm(&quot;Are you sure to delete this record?&quot;)">
-                                            <i class="fa-solid fa-trash-can fa-lg text-danger"></i> 
-                                        </button>  
+                                            <i class="fa-solid fa-trash-can fa-lg text-danger"></i>
+                                        </button>
                                     </form>
-                                    
                                 </div>
                             </td>
                         </tr>
@@ -59,11 +53,12 @@
         </div>
         <div class="col-md-5">
             <div class="widget  h-100 d-flex justify-content-center align-items-center">
-                <i class="fa-solid fa-shapes fa-2xl"></i>
+                <i class="fa-solid fa-money-bill-transfer fa-2xl"></i>
             </div>
+        </div>
     </div>
 </div>
-</div>
+
 <!-- Include jQuery -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
