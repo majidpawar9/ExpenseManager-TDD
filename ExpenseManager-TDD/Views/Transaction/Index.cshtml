@@ -19,9 +19,9 @@
                 <thead>
                     <tr>
                         <th scope="col" data-field="Category" data-sortable="true">Category</th>
-                        <th scope="col" data-field="Amount" data-sortable="true" width="100px">Amount</th>
                         <th scope="col" data-field="Note" data-sortable="true"width="100px">Note</th>
                         <th scope="col" data-field="Date" data-sortable="true" width="50px">Date</th>
+                        <th scope="col" data-field="Amount" data-sortable="true" width="100px">Amount</th>
                         <th scope="col" width="50px">Actions</th>
                     </tr>
                 </thead>
@@ -30,9 +30,9 @@
                     {
                         <tr>
                             <td>@item.CategoryTitleWithIcon</td>
-                            <td>@item.FormattedAmount</td>
                             <td>@item.Note</td>
                             <td>@item.Date.Year/@item.Date.Month/@item.Date.Day</td>
+                            <td>@item.FormattedAmount</td>
                             <td>
                                 <div class="d-flex flex-row justify-content-start">
                                     <a class="btn btn-sm" href="/Transaction/AddOrEdit/@item.TransactionID">
