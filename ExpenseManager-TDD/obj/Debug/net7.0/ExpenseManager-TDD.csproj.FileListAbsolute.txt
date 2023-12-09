@@ -663,3 +663,5 @@ C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD\obj\Debug\net7.0\ExpenseManager-TD
 C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD\obj\Debug\net7.0\ExpenseManager-TDD.genruntimeconfig.cache
 C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD\obj\Debug\net7.0\ref\ExpenseManager-TDD.dll
 C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD\bin\Debug\net7.0\Castle.Core.dll
+C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD\bin\Debug\net7.0\Moq.dll

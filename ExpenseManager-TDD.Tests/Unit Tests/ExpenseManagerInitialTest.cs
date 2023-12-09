@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Expense.Services;
 
-namespace Expense.Tests.Services
+namespace ExpenseManager_TDD.Tests.UnitTests
 {
     [TestClass]
     public class ExpenseManager_IsPrimeShould

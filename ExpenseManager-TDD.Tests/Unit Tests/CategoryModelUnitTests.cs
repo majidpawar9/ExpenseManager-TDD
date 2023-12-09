@@ -2,15 +2,15 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ExpenseManager_TDD.Models;
 
-namespace ExpenseManager_TDD.Tests
+namespace ExpenseManager_TDD.Tests.UnitTest
 {
     [TestClass]
-    public class CategoryModelIntegrationTests
+    public class CategoryModelUnittest
     {
         [TestMethod]
         public void Category_Model_Should_Pass_DataAnnotations_Validation()
         {
-          
+
             var category = new Category
             {
                 CategoryID = 1,
@@ -19,19 +19,19 @@ namespace ExpenseManager_TDD.Tests
                 Type = "Expense"
             };
 
-           
+
             var validationContext = new System.ComponentModel.DataAnnotations.ValidationContext(category);
-            var validationResults = new System.Collections.Generic.List<System.ComponentModel.DataAnnotations.ValidationResult>();
+            var validationResults = new List<System.ComponentModel.DataAnnotations.ValidationResult>();
             var isValid = System.ComponentModel.DataAnnotations.Validator.TryValidateObject(category, validationContext, validationResults, true);
 
-           
+
             Assert.IsTrue(isValid);
         }
 
         [TestMethod]
         public void Category_Model_Should_Be_Created_In_Database()
         {
-            
+
             var options = new DbContextOptionsBuilder<ApplicationDbContext>()
                 .UseInMemoryDatabase(databaseName: "Test_Database")
                 .Options;
@@ -46,19 +46,19 @@ namespace ExpenseManager_TDD.Tests
                     Type = "Expense"
                 };
 
-                
+
                 dbContext.Categories.Add(category);
                 dbContext.SaveChanges();
             }
 
-            
+
             using (var dbContext = new ApplicationDbContext(options))
             {
                 var retrievedCategory = dbContext.Categories.Find(1);
 
                 Assert.IsNotNull(retrievedCategory);
                 Assert.AreEqual("Test Category", retrievedCategory.Title);
-                
+
             }
         }
 
@@ -79,7 +79,8 @@ namespace ExpenseManager_TDD.Tests
                     Type = "Expense"
                 };
 
-                Assert.ThrowsException<DbUpdateException>(() => {
+                Assert.ThrowsException<DbUpdateException>(() =>
+                {
                     dbContext.Categories.Add(category);
                     dbContext.SaveChanges();
                 });

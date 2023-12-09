@@ -832,3 +832,5 @@ C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD.Tests\obj\Debug\net7.0\ExpenseMana
 C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD.Tests\obj\Debug\net7.0\ExpenseManager-TDD.Tests.genruntimeconfig.cache
 C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD.Tests\obj\Debug\net7.0\ref\ExpenseManager-TDD.Tests.dll
 C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD.Tests\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD.Tests\bin\Debug\net7.0\Castle.Core.dll
+C:\Web2\ExpenseManager-TDD\ExpenseManager-TDD.Tests\bin\Debug\net7.0\Moq.dll
