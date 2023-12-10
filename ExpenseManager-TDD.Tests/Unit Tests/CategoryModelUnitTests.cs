@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ExpenseManager_TDD.Models;
 
-namespace ExpenseManager_TDD.Tests.UnitTest
+namespace ExpenseManager_TDD.Tests.Unit_Tests
 {
     [TestClass]
     public class CategoryModelUnittest

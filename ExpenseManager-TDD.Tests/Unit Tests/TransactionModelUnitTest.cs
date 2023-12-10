@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using ExpenseManager_TDD.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ExpenseManager_TDD.UnitTests
+namespace ExpenseManager_TDD.Tests.Unit_Tests
 {
     [TestClass]
     public class TransactionModelTests
