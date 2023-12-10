@@ -64,11 +64,5 @@ namespace ExpenseManager_TDD.Controllers
         }
     }
 
-    public class SplineChartData
-    {
-        public string? day;
-        public int income;
-        public int expense;
 
-    }
 }
