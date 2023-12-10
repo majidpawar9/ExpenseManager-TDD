@@ -10,3 +10,15 @@ C:\Users\mahek\OneDrive\Desktop\Webfinal\ExpenseManagerLibrary\obj\Debug\net7.0\
 C:\Users\mahek\OneDrive\Desktop\Webfinal\ExpenseManagerLibrary\obj\Debug\net7.0\refint\ExpenseManagerLibrary.dll
 C:\Users\mahek\OneDrive\Desktop\Webfinal\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.pdb
 C:\Users\mahek\OneDrive\Desktop\Webfinal\ExpenseManagerLibrary\obj\Debug\net7.0\ref\ExpenseManagerLibrary.dll
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\bin\Debug\net7.0\ExpenseManagerLibrary.deps.json
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\bin\Debug\net7.0\ExpenseManagerLibrary.dll
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\bin\Debug\net7.0\ExpenseManagerLibrary.pdb
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.csproj.AssemblyReference.cache
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.AssemblyInfoInputs.cache
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.AssemblyInfo.cs
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.dll
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\refint\ExpenseManagerLibrary.dll
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.pdb
+C:\Users\mahek\Source\Repos\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ref\ExpenseManagerLibrary.dll

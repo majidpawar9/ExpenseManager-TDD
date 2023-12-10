@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mahek\\OneDrive\\Desktop\\Webfinal\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj": {}
+    "C:\\Users\\mahek\\Source\\Repos\\ExpenseManager-TDD\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mahek\\OneDrive\\Desktop\\Webfinal\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj": {
+    "C:\\Users\\mahek\\Source\\Repos\\ExpenseManager-TDD\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mahek\\OneDrive\\Desktop\\Webfinal\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\mahek\\Source\\Repos\\ExpenseManager-TDD\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj",
         "projectName": "ExpenseManagerLibrary",
-        "projectPath": "C:\\Users\\mahek\\OneDrive\\Desktop\\Webfinal\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj",
+        "projectPath": "C:\\Users\\mahek\\Source\\Repos\\ExpenseManager-TDD\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj",
         "packagesPath": "C:\\Users\\mahek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mahek\\OneDrive\\Desktop\\Webfinal\\ExpenseManagerLibrary\\obj\\",
+        "outputPath": "C:\\Users\\mahek\\Source\\Repos\\ExpenseManager-TDD\\ExpenseManagerLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

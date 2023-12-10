@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y9MVNZ07fKY+W16yfocc1oZOTSVSJqY6QE1y5s3RnVpkUzR1DKDy2dvlKYMLfPc3Q3Oyb1UDnbZmf8OQDJ27XA==",
+  "dgSpecHash": "ojnDejWOLRkb+HP0GnuDfRa5QDjviH3G0pFN43WYiKIcRTEpw4C/VvD3wVjLxCDIUUy0b43c1ws7GtxTw9Gtwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahek\\OneDrive\\Desktop\\Webfinal\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj",
+  "projectFilePath": "C:\\Users\\mahek\\Source\\Repos\\ExpenseManager-TDD\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahek\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

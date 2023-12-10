@@ -80,8 +80,7 @@ namespace ExpenseManager_TDD.Tests.Unit_Tests
         [TestMethod]
         public async Task Index_RetrievesRecentTransactions()
         {
-            // Arrange
-            // Add some sample transactions to the in-memory database
+           
             _dbContext.Transactions.AddRange(
                 new Transaction { Date = DateTime.Now.AddDays(-1), Amount = 100, CategoryID = 1 },
                 new Transaction { Date = DateTime.Now.AddDays(-2), Amount = 200, CategoryID = 2 },
