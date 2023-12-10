@@ -14,4 +14,11 @@
 - Added Transaction Controller and its function - Mahek/Majid
 - Added ServerSide Validations - Mahek/Majid
 - Added Mstest for CategoryController Test and TransactionController Test - Mahek/Majid
-- - Added class library project 
+- - Added class library project
+  - added Class library for buttons
+  - Added  Dashboard Controller and Dashboard Empty view 
+  - added sidebar
+  - added attribute to calculate the sum to balance total income and total expense in dashboard contoller
+  - added Test for dashboard controller
+  - addded class library for Summary Widgets
+  
