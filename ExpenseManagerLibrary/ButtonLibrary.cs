@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ExpenseManagerLibrary
+
+namespace CustomButtonStyles
 {
-    internal class ButtonLibrary
+    public class ButtonStyles
     {
+        public static string PrimaryButtonClass => "btn btn-primary";
+        public static string SecondaryButtonClass => "btn btn-secondary";
+      
     }
 }

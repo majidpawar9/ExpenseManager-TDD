@@ -1,4 +1,5 @@
 ﻿@model ExpenseManager_TDD.Models.Category
+@using CustomButtonStyles;
 
 @{
     ViewData["PageTitle"] = Model.CategoryID == 0? "Create a new category":"Edit Category";
@@ -31,10 +32,12 @@
             <div class="form-group">
                 <label asp-for="Icon" class="control-label"></label>
                 <input asp-for="Icon" class="form-control" />
-            </div>
-            <div class="form-group">
-                <input id="submit" type="submit" value="Submit" class="btn btn-success" />
-            </div>
+            </div><br />
+            <div>
+                <div class="mb-3">
+                    <input type="submit" value="Create" class="@CustomButtonStyles.ButtonStyles.PrimaryButtonClass" />
+                </div>
+                </div>
         </form>
         </div>
         
