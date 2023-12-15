@@ -1,4 +1,13 @@
 # ExpenseManager-TDD
+Group member 
+Mahek,Majid
+## Database Setup
+
+This project uses a SQL database to store data.
+Please run a sql script file to add data into database for better experience of app
+Script File is present in /ExpenseManager-TDD/TranscationDB
+
+
 
 ## List of Contributions
 - Added Category and Transaction Model - Mahek/Majid
@@ -25,5 +34,8 @@
 - Added different Kind of Graphs using JavaScript - Mahek/Majid 
 - Added Last Migration - Mahek/Majid 
 - removed unnecessary components and optimised navigation - Mahek/Majid 
-- Added SQL script file to add data to Database as use intended by us - Mahek/Majid 
+- Added SQL script file to add data to Database as use intended by us - Mahek/Majid
+- Added Swagger and Open Api Tools to Make a Minimal Web Api
+- Added Startup.cs and reconfigured app building
+- Worked On UI
   
