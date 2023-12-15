@@ -1,7 +1,7 @@
 ﻿@using ExpenseManagerLibrary;
 @{
     ViewData["isDashboard"] = true;
-    
+
     var totalIncomeWidget = new SummaryWidget("income", "Total Income", ViewBag.TotalIncome);
     var totalExpenseWidget = new SummaryWidget("expense", "Total Expense", ViewBag.TotalExpense);
     var balanceWidget = new SummaryWidget("balance", "Balance", ViewBag.Balance);
@@ -15,25 +15,103 @@
 
 <div class="container">
     <div class="row mb-4">
-        @Html.Raw(totalIncomeHtml) 
+        @Html.Raw(totalIncomeHtml)
         @Html.Raw(totalExpenseHtml)
         @Html.Raw(balanceHtml)
     </div>
 </div>
 
-
-
 <div class="mb-4">
-    <button type="button" class="btn btn-primary me-2" onclick="redirectToCategoryIndex()">Add Category</button>
-    <button type="button" class="btn btn-primary" onclick="redirectToTransactionIndex()">Add Transaction</button>
+    <button type="button" class="btn btn-primary me-2" id="addCategoryBtn">Add Category</button>
+    <button type="button" class="btn btn-primary" id="addTransactionBtn">Add Transaction</button>
 </div>
 
-<script>
-    function redirectToCategoryIndex() {
-        window.location.href = 'http://localhost:5128/Category/Index';
-    }
+<div>
+    <p>
+        <div class="row">
+            <div class="col-1">
+                <label><b>Chart-Type</b></label>
+            </div>
+            <div class="col-2">
+                <select id="ChartType" class="form-select" style="width:150px;">
+                    <option selected>Select Chart Type</option>
+                    <option>doughnut</option>
+                    <option>line</option>
+                    <option>pie</option>
+                    <option>bar</option>
+                </select>
+            </div>
+            <div class="col-4">
+                <input id="showGraphBtn" value="Show Graph" type="button" />
+            </div>
+        </div>
+    </p>
+    <br />
+    <div id="ChartView">
+        <canvas id="myChart" style="max-width:750px;max-height:400px;"></canvas>
+    </div>
+</div>
 
-    function redirectToTransactionIndex() {
-        window.location.href = 'http://localhost:5128/Transaction/Index';
-    }
-</script>
+@section scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // Event handlers
+            $("#addCategoryBtn").click(redirectToCategoryIndex);
+            $("#addTransactionBtn").click(redirectToTransactionIndex);
+            $("#showGraphBtn").click(function () {
+                // Chart rendering logic
+                var chartType = $("#ChartType").val();
+                var chartView = document.getElementById('ChartView');
+                chartView.innerHTML = '&nbsp;';
+                $('#ChartView').append('<canvas id="myChart" style="max-width:750px;max-height:400px;"></canvas>');
+
+                // Ajax request for data
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/GetExpenseData",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: OnSuccessResult,
+                    error: OnError
+                });
+
+                // Success callback
+                function OnSuccessResult(data) {
+                    var _data = data;
+                    var _chartLabels = _data[1];
+                    var _chartData = _data[0];
+                    var _dataType = _data[2];
+
+                    var barColor = ["red", "blue", "green", "yellow", "orange"];
+                    new Chart("myChart", {
+                        type: chartType,
+                        data: {
+                            labels: _chartLabels,
+                            datasets: [{
+                                backgroundColor: barColor,
+                                data: _chartData
+                            }]
+                        }
+                    });
+                }
+
+                // Error callback
+                function OnError(err) {
+                    // Handle error
+                }
+            });
+        });
+
+        // Redirect functions
+        function redirectToCategoryIndex() {
+            window.location.href = 'http://localhost:5128/Category/Index';
+        }
+
+        function redirectToTransactionIndex() {
+            window.location.href = 'http://localhost:5128/Transaction/Index';
+        }
+    </script>
+}

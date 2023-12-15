@@ -60,9 +60,35 @@ namespace ExpenseManager_TDD.Controllers
                 .ToListAsync();
 
 
+
+
+
+
+
+
+
             return View();
         }
+
+        
+        // for getting data for charts
+        [HttpPost]
+        public List<object> GetExpenseData()
+        {
+            List<object> data = new List<object>();
+
+            List<int> amount = _context.Transactions.Select(p => p.Amount).ToList();
+            data.Add(amount);
+            List<String> label = _context.Categories.Select(p => p.Title).ToList();
+            data.Add(label);
+            List<String> typeOfExpense = _context.Categories.Select(p => p.Type).ToList();
+            data.Add(typeOfExpense);
+
+            return data;
+        }
     }
+
+
 
 
 }
