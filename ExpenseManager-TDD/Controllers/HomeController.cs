@@ -41,10 +41,13 @@ public class HomeController : Controller
     {
         List<object> data = new List<object>();
 
-        List<int> labels = _context.Transactions.Select(p =>p.Amount).ToList();
-        data.Add(labels);
-        List<DateTime> date = _context.Transactions.Select(p => p.Date).ToList();
-        data.Add(date);
+        List<int> amount = _context.Transactions.Select(p =>p.Amount).ToList();
+        data.Add(amount);
+        List<String> label =_context.Categories.Select(p => p.Title).ToList();
+        data.Add(label);
+        List<String> typeOfExpense = _context.Categories.Select(p => p.Type).ToList();
+        data.Add(typeOfExpense);
+
         return data;
     }
         
