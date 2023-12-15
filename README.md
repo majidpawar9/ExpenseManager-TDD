@@ -14,11 +14,16 @@
 - Added Transaction Controller and its function - Mahek/Majid
 - Added ServerSide Validations - Mahek/Majid
 - Added Mstest for CategoryController Test and TransactionController Test - Mahek/Majid
-- - Added class library project
-  - added Class library for buttons
-  - Added  Dashboard Controller and Dashboard Empty view 
-  - added sidebar
-  - added attribute to calculate the sum to balance total income and total expense in dashboard contoller
-  - added Test for dashboard controller
-  - addded class library for Summary Widgets
+- - Added class library project - Mahek/Majid
+  - added Class library for buttons - Mahek/Majid
+  - Added  Dashboard Controller and Dashboard Empty view - Mahek/Majid 
+  - added sidebar - Mahek/Majid
+  - added attribute to calculate the sum to balance total income and total expense in dashboard contoller - Mahek/Majid
+  - added Test for dashboard controller - Mahek/Majid
+  - addded class library for Summary Widgets - Mahek/Majid
+- Added basic Graph in HomeController to test this feature - Mahek/Majid 
+- Added different Kind of Graphs using JavaScript - Mahek/Majid 
+- Added Last Migration - Mahek/Majid 
+- removed unnecessary components and optimised navigation - Mahek/Majid 
+- Added SQL script file to add data to Database as use intended by us - Mahek/Majid 
   
