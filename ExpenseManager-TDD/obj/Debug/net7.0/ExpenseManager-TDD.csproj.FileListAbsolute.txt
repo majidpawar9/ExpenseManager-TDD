@@ -1439,3 +1439,11 @@ C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\refint\ExpenseManager-
 C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\ExpenseManager-TDD.pdb
 C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\ExpenseManager-TDD.genruntimeconfig.cache
 C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\ref\ExpenseManager-TDD.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\BreadCrumbExpress.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Mvc.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Razor.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Helpers.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.WebPages.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Microsoft.Web.Infrastructure.dll

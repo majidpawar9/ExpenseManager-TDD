@@ -50,7 +50,7 @@ namespace ExpenseManager_TDD.Controllers
             culture.NumberFormat.CurrencyNegativePattern = 1;
             ViewBag.Balance = String.Format(culture, "{0:C0}", Balance);
 
-       
+            
 
  
 
