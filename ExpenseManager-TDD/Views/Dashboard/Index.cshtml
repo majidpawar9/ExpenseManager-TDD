@@ -14,13 +14,13 @@
 <h2>Wallet Dashboard</h2>
 
 <div class="container">
-    <div class="row mb-4">
+    <div class="row">
         @Html.Raw(totalIncomeHtml)
         @Html.Raw(totalExpenseHtml)
         @Html.Raw(balanceHtml)
     </div>
 </div>
-
+<br />
 <div class="mb-4">
     <button type="button" class="btn btn-primary me-2" id="addCategoryBtn">Add Category</button>
     <button type="button" class="btn btn-primary" id="addTransactionBtn">Add Transaction</button>
@@ -47,6 +47,7 @@
         </div>
     </p>
     <br />
+
     <div id="ChartView">
         <canvas id="myChart" style="max-width:750px;max-height:400px;"></canvas>
     </div>
@@ -107,11 +108,11 @@
 
         // Redirect functions
         function redirectToCategoryIndex() {
-            window.location.href = 'http://localhost:5128/Category/Index';
+            window.location.href = '/Category/Index';
         }
 
         function redirectToTransactionIndex() {
-            window.location.href = 'http://localhost:5128/Transaction/Index';
+            window.location.href = '/Transaction/Index';
         }
     </script>
 }

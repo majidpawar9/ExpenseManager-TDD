@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v7.0": {
       "ExpenseManagerLibrary/1.0.0": {
         "dependencies": {
+          "BreadCrumbExpress": "1.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "runtime": {
           "ExpenseManagerLibrary.dll": {}
+        }
+      },
+      "BreadCrumbExpress/1.2.0": {
+        "runtime": {
+          "lib/net45/BreadCrumbExpress.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
@@ -742,6 +751,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BreadCrumbExpress/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cX8k9PdG6B4w2HtsF7zjbpqJrfhvF5noc87fqP+BfHHKbjGqRHY8938nC3E22//DnJpEhHeRP7oGHxVl0vH4bA==",
+      "path": "breadcrumbexpress/1.2.0",
+      "hashPath": "breadcrumbexpress.1.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "type": "package",
