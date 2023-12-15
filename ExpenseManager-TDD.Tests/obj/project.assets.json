@@ -13579,11 +13579,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FinalProject\\Final\\ExpenseManager-TDD.Tests\\ExpenseManager-TDD.Tests.csproj",
+      "projectUniqueName": "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD.Tests\\ExpenseManager-TDD.Tests.csproj",
       "projectName": "ExpenseManager-TDD.Tests",
-      "projectPath": "C:\\FinalProject\\Final\\ExpenseManager-TDD.Tests\\ExpenseManager-TDD.Tests.csproj",
+      "projectPath": "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD.Tests\\ExpenseManager-TDD.Tests.csproj",
       "packagesPath": "C:\\Users\\mahek\\.nuget\\packages\\",
-      "outputPath": "C:\\FinalProject\\Final\\ExpenseManager-TDD.Tests\\obj\\",
+      "outputPath": "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -13605,8 +13605,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj": {
-              "projectPath": "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj"
+            "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj": {
+              "projectPath": "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj"
             }
           }
         }

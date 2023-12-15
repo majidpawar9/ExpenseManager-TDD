@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4wAizJR4W+TvY3AGAODK859EONglwtdj9CCuI1XC/eaXNwJkCbaARXJ5sEz1EUEtmt2acf6ipR6S3RkDWO12KA==",
+  "dgSpecHash": "aIM4Pya3SCdPf5oZhoIemAwRSuOeDGUAz2SbloIeYEqLkdFWbIgxIAxD6vWapH0px8Kx5KqzdeAGFrA9g6Bqpg==",
   "success": true,
-  "projectFilePath": "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj",
+  "projectFilePath": "C:\\FinalProject\\Final\\ExpenseManager-TDD\\ExpenseManager-TDD\\ExpenseManager-TDD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahek\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

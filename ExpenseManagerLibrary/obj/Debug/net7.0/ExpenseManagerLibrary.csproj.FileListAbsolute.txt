@@ -34,3 +34,15 @@ C:\FinalProject\Final\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibra
 C:\FinalProject\Final\ExpenseManagerLibrary\obj\Debug\net7.0\refint\ExpenseManagerLibrary.dll
 C:\FinalProject\Final\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.pdb
 C:\FinalProject\Final\ExpenseManagerLibrary\obj\Debug\net7.0\ref\ExpenseManagerLibrary.dll
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\bin\Debug\net7.0\ExpenseManagerLibrary.deps.json
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\bin\Debug\net7.0\ExpenseManagerLibrary.dll
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\bin\Debug\net7.0\ExpenseManagerLibrary.pdb
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.csproj.AssemblyReference.cache
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.AssemblyInfoInputs.cache
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.AssemblyInfo.cs
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.csproj.CoreCompileInputs.cache
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.dll
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\refint\ExpenseManagerLibrary.dll
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ExpenseManagerLibrary.pdb
+C:\FinalProject\Final\ExpenseManager-TDD\ExpenseManagerLibrary\obj\Debug\net7.0\ref\ExpenseManagerLibrary.dll
