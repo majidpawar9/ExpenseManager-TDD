@@ -1201,15 +1201,9 @@ C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Azure.Core.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Azure.Identity.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Castle.Core.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Humanizer.dll
-C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Mvc.dll
-C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Razor.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Net.Http.Formatting.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Http.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Http.WebHost.dll
-C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.Helpers.dll
-C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.WebPages.Deployment.dll
-C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.WebPages.Razor.dll
-C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\System.Web.WebPages.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Microsoft.Build.dll
