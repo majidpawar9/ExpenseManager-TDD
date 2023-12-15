@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ExpenseManager-TDD",
+    "\\ExpenseManager-TDD\\Controllers"
   ],
-  "SelectedNode": "\\ExpenseManager-TDD.sln",
+  "SelectedNode": "\\ExpenseManager-TDD\\Controllers\\CategoryController.cs",
   "PreviewInSolutionExplorer": false
 }

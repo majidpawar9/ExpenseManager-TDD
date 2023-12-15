@@ -49,10 +49,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "BreadCrumbExpress": {
-              "target": "Package",
-              "version": "[1.2.0, )"
-            },
             "MSTest.TestAdapter": {
               "target": "Package",
               "version": "[2.2.10, )"
@@ -90,6 +86,10 @@
             "Moq": {
               "target": "Package",
               "version": "[4.20.70, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -161,10 +161,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "BreadCrumbExpress": {
-              "target": "Package",
-              "version": "[1.2.0, )"
-            },
             "Microsoft.AspNet.Mvc": {
               "target": "Package",
               "version": "[5.3.0, )"
@@ -198,6 +194,10 @@
             "Moq": {
               "target": "Package",
               "version": "[4.20.70, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
@@ -267,6 +267,10 @@
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",
               "version": "[2.2.5, )"
+            },
+            "Swashbuckle": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [

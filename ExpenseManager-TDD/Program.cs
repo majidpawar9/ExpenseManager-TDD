@@ -2,6 +2,7 @@ using ExpenseManager_TDD.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
