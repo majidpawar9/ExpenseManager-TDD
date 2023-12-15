@@ -5,7 +5,7 @@ Mahek,Majid
 
 This project uses a SQL database to store data.
 Please run a sql script file to add data into database for better experience of app
-Script File is present in /ExpenseManager-TDD/TranscationDB
+Script File is present in /ExpenseManager-TDD/TranscationDB.sql
 
 
 
