@@ -1,9 +1,17 @@
 using ExpenseManager_TDD.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Reflection;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Builder;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "ExpenseManger API", Description = "Expense Manger", Version = "v1" });
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -13,6 +21,14 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 var app = builder.Build();
+
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "ExpenseManager API V1");
+});
+
 
 
 // Configure the HTTP request pipeline.

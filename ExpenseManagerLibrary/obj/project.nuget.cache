@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zlrrvI0qpc74qo30Yw7N9nJFiw/LeOqHlDc6rOMBawCDHi3oKXjCsKwYiot5emi6nqst2HvaFtelRTYKWWMRpQ==",
+  "dgSpecHash": "Zeu4uPJNZkG96630Zio6lupI7aiBzca41EihXkzh0L6j5vC2R/ySUXxZ4Co5X03K2xaXMGXa+4ynPTV6I7pn7A==",
   "success": true,
   "projectFilePath": "C:\\FinalProject\\Final\\ExpenseManagerLibrary\\ExpenseManagerLibrary.csproj",
   "expectedPackageFiles": [
@@ -39,10 +39,14 @@
     "C:\\Users\\mahek\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\mahek\\.nuget\\packages\\microsoft.openapi\\1.6.11\\microsoft.openapi.1.6.11.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\swashbuckle\\5.6.0\\swashbuckle.5.6.0.nupkg.sha512",
+    "C:\\Users\\mahek\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\mahek\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\mahek\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\swashbuckle.core\\5.6.0\\swashbuckle.core.5.6.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\mahek\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",

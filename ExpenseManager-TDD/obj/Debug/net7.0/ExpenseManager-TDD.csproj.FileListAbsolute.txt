@@ -1451,3 +1451,8 @@ C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\refint\ExpenseManager-
 C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\ExpenseManager-TDD.pdb
 C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\ExpenseManager-TDD.genruntimeconfig.cache
 C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\ref\ExpenseManager-TDD.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\FinalProject\Final\ExpenseManager-TDD\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\FinalProject\Final\ExpenseManager-TDD\obj\Debug\net7.0\ExpenseManager-TDD.MvcApplicationPartsAssemblyInfo.cs
